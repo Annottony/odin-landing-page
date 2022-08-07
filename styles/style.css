@@ -1,0 +1,38 @@
+body {
+    display:flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+
+.header,
+.hero {
+    background-color: #1F2937;
+    display:flex;
+    align-items: center;
+}
+
+.header {
+    justify-content: space-around;
+}
+.header ul {
+    display:flex;
+    list-style-type: none;
+    gap:20px;
+    padding:0;
+    margin:0;
+}
+.header p {
+    font-size: 24px;
+    color:#F9FAF8
+}
+.header a {
+    font-size: 18px;
+    color:#E5E7EB;
+    text-decoration: none;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color:#F9FAF8
+}
