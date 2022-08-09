@@ -1,84 +1,73 @@
 body {
     display:flex;
-    flex-direction:column;
-    min-height:100vh;
-    background-color:black;
-    font-family: Roboto, sans-serif;
-    margin:0 20%;
-
-}
-.header {
-    display:flex;
     flex-direction: column;
-    background-color: #1F2937;
-    font-size: 18px;
-    color:#E5E7EB;
+    font-family: Roboto;
+    width: auto;
+    min-width:800px;
 }
-.header-top,
-.header-bottom {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex:0 1 auto;
-    justify-content: space-between;
-    text-align: start;
-    margin:50px 300px;
-    column-gap: 50px;
-}
-.header-bottom {
-   
-}
-.header h1 {
-    font-size: 48px;
-    font-weight: bolder;
-    color:#F9FAF8;
-}
-.header-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: gray;
-    width:600px;
-    height:200px;
-}
-.logo {
-    font-size: 24px;
-    color:#F9FAF8;
-
-}
-.menu {
-
-}
-button {
-    background-color: #3882F6;
-}
-.content h2 {
-    font-size: 36px;
-    font-weight:bolder;
-    color:#1F2937;
-}
-.quote {
-    background-color: #E5E7EB;
-    font-size: 36px;
-    color:#1F2937;
-    font-style: light italic;
-}
-ul {
-    list-style-type: none;
-    display:flex;
-    gap:20px;
+* {
+    box-sizing: border-box;
     padding:0;
     margin:0;
 }
-a {
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    gap: 50px;
+    padding:50px 0;
+    align-content: center;
+    
+}
+
+.logo, h1, .header-img {
+    color:#F9FAF8;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    gap:15px;
+}
+
+.header a {
     text-decoration: none;
 }
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1F2937;
+
+.header-text, .header li {
     color:#E5E7EB;
-    margin-top:auto;
-    height:50px;
+    font-size:18px;
+}
+.header-text {
+    width:500px;
+}
+
+.header-top, .header-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 30vw;
+    gap:100px;
+}
+
+.header-top {
+
+}
+
+.header-bottom {
+    padding:5vh 30vw;
+}
+
+.header-img {
+    background-color:gray;
+    width:500px;
+    height:200px;
+    text-align: center;
 }
