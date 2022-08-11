@@ -16,7 +16,7 @@ body {
 .header {
     display: flex;
     flex-direction: column;
-    background-color: #1f2937;
+    background-color: #2d1e3d;
     gap: 50px;
     padding:50px 0;
     align-content: center;
@@ -47,7 +47,7 @@ body {
     font-size:18px;
 }
 .header-text {
-    width:40%;
+    flex:1 1 30%;
 
 }
 
@@ -58,7 +58,6 @@ body {
     align-items: center;
     padding:0 30vw;
     gap:100px;
-    
 }
 
 .header-bottom {
@@ -111,7 +110,7 @@ button {
     height:auto;
     margin-top:50px;
     border-radius: 20px;
-    border:4px solid #3882F6;
+    border:4px solid #2d1e3d;
     margin-bottom:10px;
 }
 
@@ -180,7 +179,7 @@ padding:50px;
 
 .footer {
     display: flex;
-    background-color: #1f2937;
+    background-color: #2d1e3d;
     margin-top:auto;
     justify-content: center;
     align-items: center;
