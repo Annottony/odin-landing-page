@@ -47,7 +47,7 @@ body {
     font-size:18px;
 }
 .header-text {
-    width:500px;
+    width:40%;
 
 }
 
@@ -58,16 +58,20 @@ body {
     align-items: center;
     padding:0 30vw;
     gap:100px;
+    
 }
 
 .header-bottom {
     padding:5vh 30vw;
+    flex-wrap: wrap;
 }
 
 .header-img {
     background-color:gray;
-    width:500px;
+    width:40%;
+    min-width: 250px;
     height:200px;
+    min-height: 100px;
     text-align: center;
 }
 
